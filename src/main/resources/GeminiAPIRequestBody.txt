@@ -1,0 +1,4 @@
+{
+      "contents": [{
+        "parts":[{
+          "text": "I will be using you as restraunt inventory ML model and your output must be just prediction numbers don't include any sentences it will be input for my code. Assume random sales for past two months and if last two weeks sales are pizza dough previous stock: 22, last two weeks sales: 40, sufficient: lost 10 orders and cheese previous stock: 21, last two weeks sales:60, lost 15 orders. for next two weeks how much to order. I don't need code output format must be two numbers."}]}]}
