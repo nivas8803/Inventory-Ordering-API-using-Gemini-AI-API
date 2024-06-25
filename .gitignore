@@ -6,7 +6,7 @@ target/
 
 
 ###TestNg output files ###
-test-output/
+/test-output/
 
 ### STS ###
 .apt_generated
