@@ -31,7 +31,7 @@ public class Gemini_Request {
 
 		RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
 		String response = RestAssured.given().baseUri(prop.getProperty("baseURI")).urlEncodingEnabled(false)
-				.body(requestBody).queryParam("key", prop.getProperty("APIKey")).contentType(ContentType.JSON).when()
+				.body(requestBody).queryParam("key", System.getenv("APIKey")).contentType(ContentType.JSON).when()
 				.post().then().statusCode(200).contentType(ContentType.JSON).extract().response().body().asString();
 		
 		//Extraction of prediction values from the Gemini Model
