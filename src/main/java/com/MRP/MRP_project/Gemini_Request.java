@@ -40,7 +40,7 @@ public class Gemini_Request {
 		System.out.println("Item 1:"+Integer.parseInt(prediction[0])+"\n"+"Item 2:"+Integer.parseInt(prediction[1]));
 	}
 	
-	@Test(invocationCount = 10)
+	@Test//(invocationCount = 1)
 	public static void Main() {
 		try {
 				callGemini();
