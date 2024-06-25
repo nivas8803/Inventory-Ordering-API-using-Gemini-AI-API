@@ -4,6 +4,10 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+
+###TestNg output files ###
+test-output/
+
 ### STS ###
 .apt_generated
 .classpath
